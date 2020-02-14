@@ -24,7 +24,7 @@ var mongoose = require('mongoose');
 //          | Below replaced above |
 //          V                      |
 // Set up mongoose connection
-var dev_db_url = 'mongodb+srv://cooluser:coolpassword@cluster0-mbdj7.mongodb.net/local_library?retryWrites=true'
+var dev_db_url = 'mongodb+srv://MajidMongoUser:Mongo2146@cluster0-o3pt4.azure.mongodb.net/test?retryWrites=true'
 var mongoDB = process.env.MONGODB_URI || dev_db_url;
 
 mongoose.connect(mongoDB, { useNewUrlParser: true });
